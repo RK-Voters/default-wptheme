@@ -30,7 +30,7 @@
 
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/truncated.css" />
-		
+
 
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 
@@ -73,7 +73,7 @@
 				</nav>
 			</header>
 
-      <section class="container" style="margin-top: 20px">
+      <section class="container" style="margin-top: 20px; text-align: center; padding-top: 50px">
         <section class="box">
 					<?php
 						if ( have_posts() ) {
