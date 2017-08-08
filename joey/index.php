@@ -73,7 +73,7 @@
 				</nav>
 			</header>
 
-      <section class="container" style="margin-top: 20px; text-align: center; padding-top: 50px">
+      <section class="container" style="margin-top: 20px; text-align: center; padding-top: 50px; width: 100%;">
         <section class="box">
 					<?php
 						if ( have_posts() ) {
