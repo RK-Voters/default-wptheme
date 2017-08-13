@@ -1,0 +1,43 @@
+/*
+ Theme Name:   MAC - RK Voters
+ Description:  Maine AllCare - Campaign Theme
+ Author:       Rob Korobkin
+ Author URI:   http://robkorobkin.org
+ Template:     rkvoters_theme
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body {
+  background: #7eb0d6 !important;
+  padding: 0; margin: 0;
+}
+
+div, header {
+  box-sizing: border-box;
+}
+
+header {
+  background: url(header_stripe.gif);
+  text-align: center;
+  height: 70px;
+  padding: 20px 0;
+  box-shadow: 0px 0px 4px 2px #888;
+}
+
+header img {
+  display: block;
+  margin-left: 20px;
+  height: 30px;
+  float: left;
+}
+
+.box {
+    display: inline-block;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 0 0 #e5e5e5;
+    margin: 0 0 2em 0;
+    padding: 3em;
+}

@@ -31,19 +31,6 @@
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/truncated.css" />
 
-
-    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-
-
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-    <style type="text/css">
-      @media screen and (max-width: 480px) {
-        .mobilep-hide {
-          display:none !important;
-        }
-      }
-    </style>
-
 		<?php wp_head(); ?>
 
 	</head>
@@ -74,7 +61,7 @@
 			</header>
 
       <section class="container" style="margin-top: 20px; text-align: center; padding-top: 50px; width: 100%;">
-        <section class="box">
+        <section class="box" style="text-align: left">
 					<?php
 						if ( have_posts() ) {
 						    while ( have_posts() ) {
@@ -86,15 +73,6 @@
         </section>
       </section>
 		</div>
-
-		<!-- Scripts
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollgress.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]
-			<script src="assets/js/main.js"></script>-->
 
 
 			<?php wp_footer(); ?>
