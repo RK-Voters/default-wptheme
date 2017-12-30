@@ -1,0 +1,60 @@
+/*
+ Theme Name:   Dion - RK Voters
+ Description:  Dion - CRM Theme
+ Author:       Rob Korobkin
+ Author URI:   http://robkorobkin.org
+ Template:     rkvoters_theme
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body {
+  background: #e9ebee !important;
+  padding: 0; margin: 0;
+}
+
+div, header {
+  box-sizing: border-box;
+}
+
+header {
+  background: #43518e;
+  text-align: center;
+  height: 70px;
+  padding: 8px;
+  box-shadow: 0px 0px 4px 2px #888;
+}
+
+header img {
+  display: block;
+  margin-left: 20px;
+  padding-top: 7px;
+  height: 40px;
+  float: left;
+}
+
+.page_container {
+  margin-top: 20px; 
+  text-align: center;
+
+}
+
+.tagline {
+  color: white;
+  float: right;
+  font-family: arial;
+  line-height: 54px;
+  margin-right: 20px;
+  letter-spacing: .1em;
+}
+
+.box {
+    text-align: left;
+    display: inline-block;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 0 0 #e5e5e5;
+    margin: 0 0 2em 0;
+    padding: 3em;
+}
